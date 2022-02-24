@@ -16,7 +16,7 @@ public class SimpleJavaAppRunnerFormController {
     public TextArea txtOutput;
     public Button btnRun;
 
-    public void btnRunOnAction(ActionEvent actionEvent) throws IOException {
+    public void btnRunOnAction(ActionEvent actionEvent) throws IOException, InterruptedException {
 
         String data =   "public class App{" +
                             "public static void main(String[] args{" +
@@ -27,6 +27,16 @@ public class SimpleJavaAppRunnerFormController {
         String tmpDir = System.getProperty("java.io.tmpdir");
         Path tmpFilePath = Paths.get(tmpDir,"App.java");
         Files.write(tmpFilePath,data.getBytes());
+
+        Process javac = Runtime.getRuntime().exec("javac"+tmpFilePath);
+        int exitCode = javac.waitFor();
+
+        if (exitCode==0) {
+
+        }
+        else {
+            /* Todo: Handle this later */
+        }
 
     }
 
