@@ -12,6 +12,12 @@ public class SimpleJavaAppRunnerFormController {
 
     public void btnRunOnAction(ActionEvent actionEvent) {
 
+        String data =   "public class App{" +
+                            "public static void main(String[] args{" +
+                                txtCode.getText()+
+                            "})"+
+                        "}";
+
     }
 
 }
