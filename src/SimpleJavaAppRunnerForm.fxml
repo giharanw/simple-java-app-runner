@@ -5,7 +5,8 @@
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
-<AnchorPane fx:id="root" prefHeight="679.0" prefWidth="591.0" style="-fx-background-color: #636e72;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SimpleJavaAppRunnerFormController">
+
+<AnchorPane fx:id="root" prefHeight="700.0" prefWidth="591.0" style="-fx-background-color: #636e72;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SimpleJavaAppRunnerFormController">
    <children>
       <TextArea fx:id="txtCode" layoutX="-8.0" layoutY="46.0" prefHeight="286.0" prefWidth="599.0" style="-fx-background-color: #b2bec3;" />
       <TextArea fx:id="txtOutput" layoutY="379.0" prefHeight="300.0" prefWidth="591.0" style="-fx-background-color: #b2bec3;" />
@@ -19,5 +20,10 @@
             <Font name="Ubuntu Condensed" size="18.0" />
          </font>
       </Button>
+      <Label layoutX="168.0" layoutY="680.0" text="Developed by Gihara Wickramatunge" textFill="WHITE">
+         <font>
+            <Font name="Ubuntu Medium" size="15.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
