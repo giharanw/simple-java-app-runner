@@ -6,21 +6,21 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="root" prefHeight="700.0" prefWidth="591.0" style="-fx-background-color: #636e72;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SimpleJavaAppRunnerFormController">
+<AnchorPane fx:id="root" prefHeight="700.0" prefWidth="591.0" style="-fx-background-color: #30336b;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SimpleJavaAppRunnerFormController">
    <children>
-      <TextArea fx:id="txtCode" layoutX="-8.0" layoutY="46.0" prefHeight="286.0" prefWidth="599.0" style="-fx-background-color: #b2bec3;" />
-      <TextArea fx:id="txtOutput" layoutY="379.0" prefHeight="300.0" prefWidth="591.0" style="-fx-background-color: #b2bec3;" />
-      <Label layoutX="145.0" layoutY="4.0" text="Simple Java App Runner" textFill="WHITE">
+      <TextArea fx:id="txtCode" layoutX="14.0" layoutY="52.0" prefHeight="286.0" prefWidth="567.0" style="-fx-background-color: #b2bec3;" />
+      <TextArea fx:id="txtOutput" layoutX="14.0" layoutY="389.0" prefHeight="286.0" prefWidth="567.0" style="-fx-background-color: #b2bec3;" />
+      <Label layoutX="145.0" layoutY="3.0" text="Simple Java App Runner" textFill="WHITE">
          <font>
             <Font name="Ubuntu Condensed" size="34.0" />
          </font>
       </Label>
-      <Button fx:id="btnRun" defaultButton="true" layoutX="257.0" layoutY="339.0" mnemonicParsing="false" onAction="#btnRunOnAction" prefHeight="22.0" prefWidth="80.0" style="-fx-background-radius: 10; -fx-background-color: #2d3436;" text="Run" textFill="WHITE">
+      <Button fx:id="btnRun" defaultButton="true" layoutX="257.0" layoutY="347.0" mnemonicParsing="false" onAction="#btnRunOnAction" prefHeight="22.0" prefWidth="80.0" style="-fx-background-radius: 10; -fx-background-color: white;" text="Run" textFill="#30336b">
          <font>
             <Font name="Ubuntu Condensed" size="18.0" />
          </font>
       </Button>
-      <Label layoutX="168.0" layoutY="680.0" text="Developed by Gihara Wickramatunge" textFill="WHITE">
+      <Label layoutX="169.0" layoutY="678.0" text="Developed by Gihara Wickramatunge" textFill="WHITE">
          <font>
             <Font name="Ubuntu Medium" size="15.0" />
          </font>
